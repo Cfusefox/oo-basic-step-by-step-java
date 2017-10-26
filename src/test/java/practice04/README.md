@@ -19,4 +19,4 @@ introduce方法返回一个字符串形如：
 
 >My name is Tom. I am 21 years old.
 
-应该调用Person的introduce来返回。
+应该调用Person的basicIntroduce来返回。

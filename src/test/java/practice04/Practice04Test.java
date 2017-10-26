@@ -1,9 +1,6 @@
 package practice04;
 
 import org.junit.Test;
-import practice03.Person;
-import practice03.Student;
-import practice03.Worker;
 
 import static org.fest.assertions.api.Assertions.assertThat;
 
