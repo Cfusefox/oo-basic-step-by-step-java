@@ -1,4 +1,4 @@
-package practice03;
+package practice04;
 
 public class Student extends Person {
 
@@ -14,6 +14,6 @@ public class Student extends Person {
     }
 
     public String introduce() {
-        return super.introduce() + " I am a Student. I am at Class " + this.klass + ".";
+        return "I am a Student. I am at Class " + this.klass + ".";
     }
 }
