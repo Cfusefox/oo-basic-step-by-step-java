@@ -31,9 +31,8 @@ public class Klass {
         return "Class " + number;
     }
 
-    public boolean assignLeader(Student student) {
+    public void assignLeader(Student student) {
         this.leader = student;
-        return true;
     }
 
     public Student getLeader() {
