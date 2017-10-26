@@ -26,5 +26,7 @@ dependencies {
 
     // Use JUnit test framework
     testImplementation 'junit:junit:4.12'
+    testImplementation 'org.mockito:mockito-all:1.9.5'
+    testImplementation 'org.easytesting:fest-assert-core:2.0M10'
 }
 
