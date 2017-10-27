@@ -11,10 +11,14 @@
 * 理解封装
 * 理解继承
 * 理解多态
+* 理解接口
+* 理解观察者模式
 
 ## 要求
 * 根据src/test/java/paractice_*/README.md完成对应的src/main/java/practice_*/的代码。要求测试通过，并符合题目要求。
 * 能够理解代码的执行过程中都发生了什么，如果不能够理解，使用调试器进行单步调试来辅助理解。
+* 每完成一个练习至少提交一次代码。
+* 反注释测试代码以执行。
 
 ## 交付物
 不修改测试代码，只修改实现代码，使得测试全部通过。
@@ -38,11 +42,12 @@ gradle build
 ```
 gradle test
 ```
+执行`gradle idea`，然后`idea .`即可在Intellj IDEA中打开项目。
 
 ## 学习资源
-1. [Introduction to Object Oriented JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Introduction_to_Object-Oriented_JavaScript)
-1. [Javascript 面向对象编程（一）：封装](http://www.ruanyifeng.com/blog/2010/05/object-oriented_javascript_encapsulation.html)
-1. [Javascript面向对象编程（二）：构造函数的继承](http://www.ruanyifeng.com/blog/2010/05/object-oriented_javascript_inheritance.html)
-1. [Javascript面向对象编程（三）：非构造函数的继承](http://www.ruanyifeng.com/blog/2010/05/object-oriented_javascript_inheritance_continued.html)
-1. [JavaScript Objects](http://www.w3schools.com/js/js_object_definition.asp)
-1. [CodeForDream Javascript 中级](http://www.codefordream.com/courses/js_intermediate/sections)
+1. [Java 继承](http://www.runoob.com/java/java-inheritance.html)
+1. [Java 重写(Override)与重载(Overload)](http://www.runoob.com/java/java-override-overload.html)
+1. [Java 多态](http://www.runoob.com/java/java-polymorphism.html)
+1. [Java 封装](http://www.runoob.com/java/java-encapsulation.html)
+1. [Java 接口](http://www.runoob.com/java/java-interfaces.html)
+1. [观察者模式](http://www.runoob.com/design-pattern/observer-pattern.html)
