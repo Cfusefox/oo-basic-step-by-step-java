@@ -21,8 +21,8 @@ public class Teacher extends Person{
 
     @Override
     public String introduce() {
-        if("".equals(String.valueOf(_class))) {
-            return super.introduce() + " I am a Teacher. I teach Class " + getKlass() + ".";
+        if(!"0".equals(String.valueOf(_class))) {
+            return super.introduce() + " I am a Teacher. I teach Class " + _class + ".";
         }
         return super.introduce() + " I am a Teacher. I teach No Class.";
     }

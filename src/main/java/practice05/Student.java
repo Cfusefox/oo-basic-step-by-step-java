@@ -17,7 +17,7 @@ public class Student extends Person{
 
     @Override
     public String introduce() {
-        return super.introduce() + "I am a Student. I am at Class " + getAge() + ".";
+        return super.introduce() + " I am a Student. I am at Class " + _class + ".";
 
     }
 }
